@@ -1,5 +1,5 @@
 {
-  "name": "@wowmaking/react-native-mopub-admob",
+  "name": "@wowmaking/react-native-mopub-unity",
   "version": "0.0.1",
   "main": "index.js",
   "files": [
@@ -7,12 +7,12 @@
     "android",
     "index.js",
     "ios",
-    "RNMoPubAdMob.podspec"
+    "RNMoPubUnity.podspec"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-admob.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-admob"
+    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-unity.git",
+    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-unity"
   },
   "keywords": [
     "react-native"
