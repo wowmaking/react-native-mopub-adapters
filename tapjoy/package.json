@@ -1,0 +1,36 @@
+{
+  "name": "@wowmaking/react-native-mopub-tapjoy",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "RNMoPubTapJoy.podspec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-tapjoy.git",
+    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-tapjoy"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Gleb Volchetskiy",
+    "email": "g.volchetskiy@wannaplay.gg",
+    "url": "https://github.com/wowmaking"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x",
+    "@wowmaking/react-native-mopub": "^0.0.1"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  }
+}
