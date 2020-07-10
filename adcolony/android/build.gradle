@@ -1,0 +1,34 @@
+def safeExtGet(prop, fallback) {
+    rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion safeExtGet('compileSdkVersion', 28)
+    buildToolsVersion safeExtGet('buildToolsVersion', "28.0.3")
+
+    defaultConfig {
+        minSdkVersion safeExtGet('minSdkVersion', 16)
+        targetSdkVersion safeExtGet('targetSdkVersion', 26)
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "https://s3.amazonaws.com/moat-sdk-builds" }
+    maven { url 'https://adcolony.bintray.com/AdColony' }
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-native:+'
+    implementation('com.mopub:mopub-sdk:+@aar') {
+        transitive = true
+    }
+
+    implementation 'com.adcolony:sdk:4.1.4'
+    implementation 'com.mopub.mediation:adcolony:4.1.4.2'
+}
