@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-mintegral --save`
+`$ npm install @wowmaking/react-native-mopub-mintegral --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-mintegral`
+`$ react-native link @wowmaking/react-native-mopub-mintegral`

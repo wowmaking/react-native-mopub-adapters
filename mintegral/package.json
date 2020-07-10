@@ -11,8 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-mintegral.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-mintegral"
+    "url": "git+https://github.com/wowmaking/react-native-mopub-adapters/tree/master/mintegral",
+    "baseUrl": "https://github.com/wowmaking/react-native-mopub-adapters/tree/master/mintegral"
   },
   "keywords": [
     "react-native"

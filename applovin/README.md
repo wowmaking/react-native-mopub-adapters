@@ -2,11 +2,20 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-applovin --save`
+`$ npm install @wowmaking/react-native-mopub-applovin --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-applovin`
+`$ react-native link @wowmaking/react-native-mopub-applovin`
 
 ## Additional steps
-If you mediate AppLovin, see this Android[https://developers.google.com/applovin/android/quick-start#update_your_androidmanifestxml] and iOS[https://developers.google.com/applovin/ios/quick-start#update_your_infoplist] instruction. If you mediate Google Ad Manager, see this Android[https://developers.google.com/ad-manager/mobile-ads-sdk/android/quick-start#update_your_androidmanifestxml] and iOS[https://developers.google.com/ad-manager/mobile-ads-sdk/ios/quick-start#update_your_infoplist] instruction.
+
+### Android
+Publishers mediating AppLovin must add their AppLovin SDK key to the app’s AndroidManifest as a child of the `<application></application>` tag, like so:
+```xml
+  <meta-data android:name="applovin.sdk.key"
+            android:value="YOUR_SDK_KEY" />
+```
+
+### iOS 
+Go to your Project Settings. Select `Info`, click on one of the rows of `Custom iOS Properties` and click the `+` to add a new row. The key of the new row key should be `AppLovinSdkKey` and the value is shown on your AppLovin dashboard.

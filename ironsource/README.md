@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-ironsource --save`
+`$ npm install @wowmaking/react-native-mopub-ironsource --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-ironsource`
+`$ react-native link @wowmaking/react-native-mopub-ironsource`

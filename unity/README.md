@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-unity --save`
+`$ npm install @wowmaking/react-native-mopub-unity --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-unity`
+`$ react-native link @wowmaking/react-native-mopub-unity`

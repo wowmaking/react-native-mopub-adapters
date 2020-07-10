@@ -11,8 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-tapjoy.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-tapjoy"
+    "url": "git+https://github.com/wowmaking/react-native-mopub-adapters/tree/master/tapjoy",
+    "baseUrl": "https://github.com/wowmaking/react-native-mopub-adapters/tree/master/tapjoy"
   },
   "keywords": [
     "react-native"

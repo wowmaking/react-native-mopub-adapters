@@ -11,8 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-ironsource.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-ironsource"
+    "url": "git+https://github.com/wowmaking/react-native-mopub-adapters/tree/master/ironsource",
+    "baseUrl": "https://github.com/wowmaking/react-native-mopub-adapters/tree/master/ironsource"
   },
   "keywords": [
     "react-native"

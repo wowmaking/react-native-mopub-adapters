@@ -11,8 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-admob.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-admob"
+    "url": "git+https://github.com/wowmaking/react-native-mopub-adapters/tree/master/admob",
+    "baseUrl": "https://github.com/wowmaking/react-native-mopub-adapters/tree/master/admob"
   },
   "keywords": [
     "react-native"

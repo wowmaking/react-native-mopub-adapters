@@ -11,8 +11,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-rn-mo-pub-facebook.git",
-    "baseUrl": "https://github.com/github_account/react-native-rn-mo-pub-facebook"
+    "url": "git+https://github.com/wowmaking/react-native-mopub-adapters/tree/master/facebook",
+    "baseUrl": "https://github.com/wowmaking/react-native-mopub-adapters/tree/master/facebook"
   },
   "keywords": [
     "react-native"

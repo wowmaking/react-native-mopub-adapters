@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-tapjoy --save`
+`$ npm install @wowmaking/react-native-mopub-tapjoy --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-tapjoy`
+`$ react-native link @wowmaking/react-native-mopub-tapjoy`

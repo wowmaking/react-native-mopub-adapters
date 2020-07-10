@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-chartboost --save`
+`$ npm install @wowmaking/react-native-mopub-chartboost --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-chartboost`
+`$ react-native link @wowmaking/react-native-mopub-chartboost`

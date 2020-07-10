@@ -2,8 +2,8 @@
 
 ## Getting started
 
-`$ npm install react-native-rn-mo-pub-vungle --save`
+`$ npm install @wowmaking/react-native-mopub-vungle --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-rn-mo-pub-vungle`
+`$ react-native link @wowmaking/react-native-mopub-vungle`
